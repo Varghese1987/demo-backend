@@ -7,7 +7,8 @@ const url = "mongodb+srv://varghese123:varghese123@cluster0-yqune.mongodb.net/<d
 const cors = require("cors")
 
 app.use(cors({
-    origin:"http://127.0.0.1:5500"
+    origin: "https://tender-babbage-f4d5ac.netlify.app"
+    // origin:"http://127.0.0.1:5500"
 }))
 
 //before implementiong it let discuss the operations that we need to do for doing DB operations
